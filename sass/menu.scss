@@ -1,0 +1,77 @@
+@import 'variables';
+
+.menus{
+    padding-top: 2%;
+    margin-right: 2%;
+   
+    
+}
+
+.lista_menu {
+  li {
+    display: inline;
+    float: right;
+    font-size: $tamano_texto_3_alto;
+    font-size: $tamano_texto_3_ancho;
+  }
+}
+
+.link_menu {
+  list-style-type: $vacio;
+  text-decoration: $vacio;
+  color: $blanco;
+  font-size: $tamano_texto_3_alto;
+  font-size: $tamano_texto_3_ancho;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.lista_menu {
+  li {
+    display: inline;
+    float: right;
+    font-size: $tamano_texto_3_alto;
+    font-size: $tamano_texto_3_ancho;
+  }
+
+}
+
+.lista_menu_pie {
+  width: 80%;
+  float: left;
+
+}
+
+.lista_menu_pie {
+  li {
+    display: inline;
+    width: 40%;
+
+  }
+}
+
+.lista_menu_pie {
+  li {
+    a {
+      text-decoration: $vacio;
+      font-size: $tamano_texto_3_alto;
+      font-size: $tamano_texto_3_ancho;
+      list-style-type: $vacio;
+      text-decoration: $vacio;
+      color: white;
+      margin: $centrado;
+      font-weight: bold;
+    }
+  }
+}
+
+
+.copy {
+  font-size: $tamano_texto_4_alto;
+  font-size: $tamano_texto_4_ancho;
+  color: $blanco;
+}
+
+ul li{
+  list-style: $vacio;
+}

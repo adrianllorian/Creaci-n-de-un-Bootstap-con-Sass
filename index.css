@@ -1,0 +1,561 @@
+.boton_vercoche {
+  margin: 2%;
+  width: 96%;
+  height: 3em;
+  font-size: 1.1vh;
+  font-size: 1.1vh;
+  background-color: #ea8500;
+  color: white;
+  font-weight: bold;
+}
+.boton_vercoche:hover {
+  background-color: rgba(175, 207, 207, 0.5);
+}
+
+.boton_formulario {
+  width: 15%;
+  height: 3em;
+  border: 0px;
+  background-color: #ea8500;
+  color: white;
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  margin-top: 5%;
+}
+.boton_formulario:hover {
+  background-color: #b07d3b;
+}
+
+.ver_todos {
+  width: 12%;
+  height: 3em;
+  float: right;
+  margin-right: 4%;
+  border: 0px;
+  background-color: #55b800;
+  color: white;
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+.ver_todos:hover {
+  background-color: #598a2e;
+}
+
+.cuadros {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.ferrari {
+  width: 30%;
+  float: left;
+  border: 2px #c3c3c3 solid;
+  margin: 1%;
+  background-color: white;
+}
+
+.estruc_casa {
+  clear: right;
+  background-image: url(Estilos/Imagenes/parallax.jpg);
+  background-position: center;
+  /* Posisicion centrada */
+  background-repeat: no-repeat;
+  /*Solo una imagen */
+  background-size: 100%, 100%;
+  height: 20em;
+  width: 90%;
+  padding-top: 10%;
+  padding-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.caja_blog1 ul li {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+}
+
+.caja_blog2 {
+  margin-top: 12%;
+}
+
+.caja_blog2 ul li {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+}
+
+.listablog {
+  clear: both;
+}
+
+.linea {
+  height: 0.2em;
+  width: 30%;
+  background-color: #55b800;
+  margin-left: -20%;
+  margin-top: -3%;
+  margin-bottom: 2%;
+}
+
+.caja_parrafo {
+  background-color: #55b800;
+  /*border: 2px white solid;*/
+  border-radius: 25px 25px 25px 25px;
+  padding: 12%;
+}
+
+.pie_izq {
+  width: 40%;
+  float: left;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.pie_derc {
+  width: 20%;
+  float: right;
+  text-align: right;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+
+.estruc_cabezera {
+  background-image: url(Estilos/Imagenes/Portada.jpg);
+  background-position: center;
+  /* Posisicion centrada */
+  background-repeat: no-repeat;
+  /*Solo una imagen */
+  background-size: 100%, 100%;
+  height: 50em;
+  margin-top: -0.5%;
+  margin-left: -0.5%;
+  margin-bottom: 2%;
+}
+
+.estruc_iconos {
+  width: 80%;
+  /* padding-left: 10%;
+   padding-right: 10%;*/
+  background-color: darkgrey;
+  margin: 0 auto;
+}
+
+.estruc_prin {
+  width: 80%;
+  /* padding-left: 15%;
+   padding-right: 10%;*/
+  background-color: darkgrey;
+  margin: 0 auto;
+}
+
+.caja_boton {
+  clear: left;
+  width: 80%;
+  height: 3em;
+  margin: 0 auto;
+  margin-top: 40%;
+}
+
+.izqui {
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+}
+
+.der {
+  width: 30%;
+  float: right;
+  margin-right: 10%;
+}
+
+.pie {
+  clear: both;
+  background-color: #323232;
+  width: 100%;
+  height: 5em;
+  padding-top: 2%;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 3%;
+  margin-top: 2%;
+  float: left;
+}
+
+.iconos {
+  width: 20%;
+  height: 20%;
+}
+
+.imagencoche {
+  width: 100%;
+  height: 100%;
+}
+
+.dibujo {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding: 5%;
+  margin: -1%;
+}
+
+.imagenblog {
+  width: 50%;
+  height: 50%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 12%;
+}
+
+.parrafos {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  line-height: 180%;
+}
+
+.parrafos2 {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  margin-left: 2%;
+}
+
+.mensaje {
+  float: left;
+  margin-top: 10%;
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+}
+
+.precio {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  margin-left: 2%;
+  color: #55b800;
+}
+
+.fecha {
+  color: #ea8500;
+}
+
+.autor {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  color: #ea8500;
+}
+
+.parrafo_testimonial {
+  clear: both;
+  font-size: 1.5vh;
+  font-size: 1.5vw;
+  color: white;
+  line-height: 200%;
+  margin-left: 13%;
+  margin-top: -33%;
+}
+
+.autor2 {
+  font-size: 1.5vh;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+  margin-left: 40%;
+}
+
+.comillas {
+  color: white;
+  font-size: 7vh;
+  font-size: 7vw;
+}
+
+.titulo {
+  clear: left;
+  color: white;
+  margin-top: 40%;
+  margin-left: 10%;
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+}
+
+.titulo2 {
+  color: white;
+  margin-left: 10%;
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+}
+
+.enunciado1 {
+  text-align: center;
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+}
+
+.enunciado2 {
+  clear: left;
+  text-align: center;
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+  margin-top: 25%;
+}
+
+.titulo_iconos2 {
+  margin-left: 2%;
+  font-size: 1.5vh;
+  font-size: 1.5vw;
+}
+
+.titulo_parallax_1 {
+  color: white;
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+}
+
+.titulo_parallax_2 {
+  color: white;
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  margin-top: 5%;
+}
+
+.titulo_blog {
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+  text-align: center;
+}
+
+.subtitulo_blog {
+  font-size: 1.5vh;
+  font-size: 1.5vw;
+}
+
+.titulo_testimoniales {
+  font-size: 2.1vh;
+  font-size: 2.1vw;
+  text-align: center;
+}
+
+.menus {
+  padding-top: 2%;
+  margin-right: 2%;
+}
+
+.lista_menu li {
+  display: inline;
+  float: right;
+  font-size: 1.3vh;
+  font-size: 1.3vw;
+}
+
+.link_menu {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vh;
+  font-size: 1.3vw;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.lista_menu li {
+  display: inline;
+  float: right;
+  font-size: 1.3vh;
+  font-size: 1.3vw;
+}
+
+.lista_menu_pie {
+  width: 80%;
+  float: left;
+}
+
+.lista_menu_pie li {
+  display: inline;
+  width: 40%;
+}
+
+.lista_menu_pie li a {
+  text-decoration: none;
+  font-size: 1.3vh;
+  font-size: 1.3vw;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.copy {
+  font-size: 1.1vh;
+  font-size: 1.1vw;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+.ml-1 {
+  margin-left: "10px";
+}
+
+.ml-2 {
+  margin-left: "20px";
+}
+
+.ml-3 {
+  margin-left: "30px";
+}
+
+.ml-4 {
+  margin-left: "40px";
+}
+
+.ml-5 {
+  margin-left: "50px";
+}
+
+.mr-1 {
+  margin-right: "10px";
+}
+
+.mr-2 {
+  margin-right: "20px";
+}
+
+.mr-3 {
+  margin-right: "30px";
+}
+
+.mr-4 {
+  margin-right: "40px";
+}
+
+.mr-5 {
+  margin-right: "50px";
+}
+
+.mt-1 {
+  margin-top: "10px";
+}
+
+.mt-2 {
+  margin-top: "20px";
+}
+
+.mt-3 {
+  margin-top: "30px";
+}
+
+.mt-4 {
+  margin-top: "40px";
+}
+
+.mt-5 {
+  margin-top: "50px";
+}
+
+.mb-1 {
+  margin-bottom: "10px";
+}
+
+.mb-2 {
+  margin-bottom: "20px";
+}
+
+.mb-3 {
+  margin-bottom: "30px";
+}
+
+.mb-4 {
+  margin-bottom: "40px";
+}
+
+.mb-5 {
+  margin-bottom: "50px";
+}
+
+.pl-1 {
+  padding-left: "10px";
+}
+
+.pl-2 {
+  padding-left: "20px";
+}
+
+.pl-3 {
+  padding-left: "30px";
+}
+
+.pl-4 {
+  padding-left: "40px";
+}
+
+.pl-5 {
+  padding-left: "50px";
+}
+
+.pr-1 {
+  padding-right: "10px";
+}
+
+.pr-2 {
+  padding-right: "20px";
+}
+
+.pr-3 {
+  padding-right: "30px";
+}
+
+.pr-4 {
+  padding-right: "40px";
+}
+
+.pr-5 {
+  padding-right: "50px";
+}
+
+.pt-1 {
+  padding-top: "10px";
+}
+
+.pt-2 {
+  padding-top: "20px";
+}
+
+.pt-3 {
+  padding-top: "30px";
+}
+
+.pt-4 {
+  padding-top: "40px";
+}
+
+.pt-5 {
+  padding-top: "50px";
+}
+
+.pb-1 {
+  padding-bottom: "10px";
+}
+
+.pb-2 {
+  padding-bottom: "20px";
+}
+
+.pb-3 {
+  padding-bottom: "30px";
+}
+
+.pb-4 {
+  padding-bottom: "40px";
+}
+
+.pb-5 {
+  padding-bottom: "50px";
+}
+
+/*# sourceMappingURL=index.css.map */

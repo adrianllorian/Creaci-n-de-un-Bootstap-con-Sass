@@ -1,0 +1,41 @@
+$tipos:("m" , "p");
+$laterales:("l", "r" ,"t", "b");
+$numeros:("1","2","3","4","5");
+
+@each $tipo in $tipos{
+  @each $lateral in $laterales{
+    @each $numero in $numeros{
+      .#{$tipo + $lateral + "-" +$numero}{
+        @if $tipo == "m"{
+          @if $lateral == "l"{
+             margin-left:$numero + "0px"; 
+          }
+         @else if $lateral == "r"{
+             margin-right:$numero + "0px"; 
+          }
+          @else if $lateral == "t"{
+            margin-top: $numero + "0px";
+          }
+          @else if $lateral == "b"{
+            margin-bottom: $numero + "0px";
+          }
+        }
+        @else if $tipo == "p"{
+           @if $lateral == "l"{
+             padding-left:$numero + "0px"; 
+          }
+         @else if $lateral == "r"{
+             padding-right:$numero + "0px"; 
+          }
+          @else if $lateral == "t"{
+            padding-top: $numero + "0px";
+          }
+          @else if $lateral == "b"{
+            padding-bottom: $numero + "0px";
+          }
+        }
+      }
+    }
+  }
+}
+

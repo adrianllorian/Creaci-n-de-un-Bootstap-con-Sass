@@ -1,0 +1,68 @@
+@import 'variables';
+
+@mixin ancho($valor){
+  @if unitless($valor){
+    @warn "Se requiere unidad en porcentajes"; 
+    width: $valor * 1%; 
+}
+}
+
+.estruc_cabezera {
+    background-image:url(Estilos/Imagenes/Portada.jpg);
+	background-position: center; /* Posisicion centrada */
+	background-repeat: no-repeat; /*Solo una imagen */
+    background-size:100%, 100%;
+    height: 50em;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-bottom: 2%;
+}
+
+
+.estruc_iconos {
+    @include ancho(80);
+   /* padding-left: 10%;
+    padding-right: 10%;*/
+    background-color: $gris;
+    margin:0 auto;
+}
+
+.estruc_prin{
+     @include ancho(80);
+   /* padding-left: 15%;
+    padding-right: 10%;*/
+    background-color: $gris;
+    margin:0 auto;
+    
+}
+
+
+.caja_boton{
+    clear:left;
+    @include ancho(80);
+    height: 3em;
+    margin: $centrado;
+    margin-top: 40%;
+}
+
+
+.izqui{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.der{
+    @include ancho(30);
+    float: right;
+    margin-right: 10%;
+}
+
+
+.pie{
+    clear: both;
+    background-color: $grisOscuro;
+    @include ancho(100);
+    height: 5em;
+    padding-top:2%;
+  }

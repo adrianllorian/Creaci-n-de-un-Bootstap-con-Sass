@@ -1,0 +1,27 @@
+
+$blanco: white;
+$beige: rgb(245,245,245);
+$gris: darkgrey;
+$naranja: rgb(234,133,0);
+$verde: rgb(85,184,0);
+$grisOscuro: rgb(50,50,50);
+
+
+$tamano_texto_4_alto:1.1vh;
+$tamano_texto_4_ancho:1.1vw;
+
+$tamano_texto_3_alto: 1.3vh;
+$tamano_texto_3_ancho:1.3vw;
+
+$tamano_texto_2_alto:1.5vh;
+$tamano_texto_2_ancho:1.5vw;
+
+$tamano_texto_1_alto: 2.1vh;
+$tamano_texto_1_ancho: 2.1vw;
+
+$hover_1: hsla(180deg, 25%, 75%, .5);
+$hover_2:desaturate($naranja, 50%);
+$hover_3:desaturate($verde, 50%);
+
+$centrado: 0 auto;
+$vacio: none;

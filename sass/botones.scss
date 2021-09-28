@@ -1,0 +1,46 @@
+@import 'variables';
+
+.boton_vercoche {
+    margin: 2%;
+    width: 96%;
+    height: 3em;
+    font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_alto;
+    background-color:$naranja;
+    color:$blanco;
+    font-weight: bold;  
+  &:hover{
+    background-color: $hover_1;
+  }
+}
+
+
+.boton_formulario {
+    width: 15%;
+    height: 3em;
+    border: 0px;
+    background-color: $naranja;
+    color:$blanco;
+    font-size:$tamano_texto_4_alto;
+    font-size:$tamano_texto_4_ancho;
+    margin-top: 5%;
+  &:hover{
+    background-color: $hover_2;
+  }
+}
+
+.ver_todos {
+    width: 12%;
+    height: 3em;
+    float: right;
+    margin-right: 4%;
+    border: 0px;
+    background-color:$verde;
+    color:$blanco;
+    font-size:$tamano_texto_4_alto;
+    font-size:$tamano_texto_4_ancho;
+    font-weight: bold;
+  &:hover{
+    background-color: $hover_3;
+  }
+}

@@ -1,0 +1,92 @@
+@import "variables";
+
+.cuadros {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.ferrari {
+  width: 30%;
+  float: left;
+  border: 2px rgb(195, 195, 195) solid;
+  margin: 1%;
+  background-color: $blanco;
+
+}
+
+.estruc_casa {
+  clear: right;
+  background-image: url(Estilos/Imagenes/parallax.jpg);
+  background-position: center;
+  /* Posisicion centrada */
+  background-repeat: no-repeat;
+  /*Solo una imagen */
+  background-size: 100%, 100%;
+  height: 20em;
+  width: 90%;
+  padding-top: 10%;
+  padding-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.caja_blog1 {
+  ul {
+    li {
+      font-size: $tamano_texto_4_alto;
+      font-size: $tamano_texto_4_ancho;
+    }
+  }
+}
+
+.caja_blog2 {
+  margin-top: 12%;
+
+}
+
+.caja_blog2 {
+  ul {
+    li {
+      font-size: $tamano_texto_4_alto;
+      font-size: $tamano_texto_4_ancho;
+    }
+  }
+}
+
+.listablog {
+  clear: both;
+
+}
+
+.linea {
+  height: 0.2em;
+  width: 30%;
+  background-color: $verde;
+  margin-left: -20%;
+  margin-top: -3%;
+  margin-bottom: 2%;
+}
+
+.caja_parrafo {
+  background-color: $verde;
+  /*border: 2px white solid;*/
+  border-radius: 25px 25px 25px 25px;
+  padding: 12%;
+
+}
+
+.pie_izq {
+  width: 40%;
+  float: left;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.pie_derc {
+  width: 20%;
+  float: right;
+  text-align: right;
+  margin-top: 1%;
+  margin-right: 10%;
+}

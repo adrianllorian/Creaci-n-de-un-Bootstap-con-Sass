@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="Estilos/Formulario.css">
+</head>
+<body>
+  
+
+   <header class="cabezera">
+       <img src="sass/Imagenes/logo.png" alt="Aqui esta el logo de Ferrari" class="logo">
+       <ul class="lista_menu">
+               <li><a href="#" class="link_menu">Nosotros</a></li>
+               
+               <li><a href="#" class="link_menu">Blog</a></li>
+            
+               <li> <a href="#" class="link_menu">Anuncios</a></li>
+           
+               <li> <a href="" class="link_menu">Contacto</a></li>
+           
+            </ul>
+   </header>
+    
+    
+<h1 class="titulo">Contacto</h1>
+    
+    <div class="foto_principal">
+        
+    </div>
+    
+    <h2 class="subtitulo">Llena el Formulario de Contacto</h2>
+    
+    <main class="contenedor_formularios">
+       <form method="post" class="formulario1">
+           <fieldset>
+               <legend>Información Personal</legend>
+                    <p><label>Nombre:</label></p>
+                    <input type="text" placeholder="Nombre" required>
+                    
+                    <p><label>E-mail:</label></p>
+                    <input type="email" placeholder="Apellido" required>
+                    
+                    <p><label>Teléfono</label></p>
+                    <input type="number" placeholder="Tu Teléfono" required>
+                    
+                    <p><label>Mensajes</label></p>
+                    <textarea rows="4" cols="25"></textarea>
+           </fieldset>
+       </form>
+       
+       <form method="post" class="formulario2">
+           <fieldset>
+               <legend>Información Sobre Propiedad</legend>
+                    <p><label>Vende o Compra</label></p>
+                    <select>
+                <option value="0">--Selecione--</option>
+                <option value="1">Vender</option> 
+                <option value="2">Comprar</option>
+                    </select>
+                    <p><label>Propietario</label></p>
+                    <input type="text">
+                    
+                   
+           </fieldset>
+       </form>
+       
+       <form method="post" class="formulario3">
+          <fieldset>
+           <legend>Información Personal</legend>
+          <p> <label>Como desea el contacto</label></p>
+          <p> <label>Teléfono</label></p>
+           <input type="radio">
+          <p> <label>Correo</label></p>
+           <input type="radio">
+           <p><label>Si eligio Teléfono elija la Fecha y Hora</label>
+           <p><label>Fecha</label></p>
+           <input type="date">
+           <p><label>Hora</label></p>
+           <input type="time">
+           <input class="boton" type="submit">
+           </fieldset>
+           
+       </form>
+        
+    </main>
+    <footer class="pie">
+            
+       <div class="pie_izq">
+          <ul class="lista_menu_pie">
+               <li><a href="#" class="link_menu_pie">Nosotros</a></li>
+               
+               <li><a href="#" class="link_menu_pie">Blog</a></li>
+            
+               <li> <a href="#" class="link_menu_pie">Anuncios</a></li>
+           
+               <li> <a href="" class="link_menu_pie">Contacto</a></li>
+           
+            </ul>
+            </div>
+      <div class="pie_derc">
+           
+        <a class="copy">Todos Los Derechos Reservados&#169;</a>
+     </div>
+    </footer>
+    
+</body>
+</html>

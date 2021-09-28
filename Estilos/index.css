@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/*font-family: 'Lato'*/
+
+body{ font-family: Lato;
+    
+}
+
+
+li{
+    list-style: none;
+}
+
+/*ESTRUCTURA DE PORTADA*/
+.estruc_cabezera{
+    background-image:url(Imagenes/Portada.jpg);
+    
+	background-position: center; /* Posisicion centrada */
+	background-repeat: no-repeat; /*Solo una imagen */
+    background-size:100%, 100%;
+    height: 50em;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+    margin-bottom: 2%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-left: 3%;
+    margin-top:2%;
+    float: left;   
+}
+
+.menus{
+    padding-top: 2%;
+    margin-right: 2%;
+   
+    
+}
+
+.lista_menu li{
+    display: inline;
+    float:right;
+    font-size: 1.3vh;
+    font-size: 1.3vw;
+    
+}
+
+.link_menu{
+    list-style-type: none;
+    text-decoration:none;
+    color:white;
+    font-size: 1.3vh;
+    font-size: 1.3vw;
+    margin: 0.5em;
+    font-weight: bold;
+    
+}
+
+.titulo{
+    clear: left;
+    color:white;
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: 2.1vh;
+    font-size: 2.1vw;
+}
+
+.titulo2{
+    color:white;
+    margin-left: 10%;
+    font-size: 2.1vh;
+    font-size: 2.1vw;
+}
+
+
+
+/*Enunciado*/
+.enunciado1{
+    text-align: center;
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+/*Caja de la esctructura de los iconos*/
+
+.estruc_iconos{
+    width: 80%;
+   /* padding-left: 10%;
+    padding-right: 10%;*/
+    background-color: darkgrey;
+    margin:0 auto;
+  
+}
+.cuadros{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.titulo_iconos{
+     font-size: 1.5vh;
+     font-size: 1.5vw;
+}
+
+.iconos{
+    width: 20%;
+    height: 20%;
+}
+
+
+
+
+
+/*Segundo enunciado*/
+.enunciado2{
+    clear: left;
+    text-align: center;
+    font-size: 2vh;
+    font-size: 2vw;
+    margin-top: 25%;
+        
+}
+.parrafos{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    line-height:180%;
+        
+}
+
+
+
+
+
+/*Estructura principal*/
+.estruc_prin{
+    width: 80%;
+   /* padding-left: 15%;
+    padding-right: 10%;*/
+    background-color: darkgrey;
+    margin:0 auto;
+    
+}
+.ferrari{
+    width: 30%;
+    float: left;
+    border: 2px rgb(195,195,195) solid;
+    margin: 1%;
+    background-color: rgb(245,245,245);
+    
+}
+
+
+.titulo_iconos2{
+     margin-left: 2%;
+     font-size: 1.5vh;
+     font-size: 1.5vw;
+}
+
+.imagencoche{
+    width: 100%;
+    height: 100%;
+}
+
+.parrafos2{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    margin-left: 2%;
+        
+}
+
+.precio{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    margin-left:2%;
+    color: rgb(54,179,0);
+}
+
+.dibujo{
+    width: 10%;
+    height: 10%;
+    float: left;
+    padding: 5%;
+    margin: -1%;
+}
+
+.mensaje{
+    float: left;
+    margin-top: 10%;
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+}
+
+.boton_vercoche{
+    margin: 2%;
+    width: 96%;
+    height: 3em;
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    background-color: rgb(234,133,0);
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+
+/*Parallax Con el boton*/
+.caja_boton{
+    clear:left;
+    width: 80%;
+    height: 3em;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+.ver_todos{
+    width: 12%;
+    height: 3em;
+    float: right;
+    margin-right: 4%;
+    border: 0px;
+    background-color: chartreuse;
+    color: rgb(255,255,255);
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+
+
+
+.estruc_casa{
+    clear: right;
+    background-image:url(Imagenes/parallax.jpg);
+	background-position: center; /* Posisicion centrada */
+	background-repeat: no-repeat; /*Solo una imagen */
+    background-size:100%, 100%;
+    height: 20em;
+    width: 90%;
+    padding-top:10%;
+    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.titulo_parallax_1{
+    color: white;
+    font-size: 2.1vh;
+    font-size: 2.1vw;
+}
+
+.titulo_parallax_2{
+    color: white;
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    margin-top: 5%;
+}
+
+.boton_formulario{
+    width: 15%;
+    height: 3em;
+    border: 0px;
+    background-color: rgb(234,133,0);
+    color: rgb(255,255,255);
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    margin-top: 5%;
+}
+
+
+
+
+/*Parte del blog*/
+
+.izqui{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.der{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+
+
+.titulo_blog{
+    font-size: 2.1vh;
+    font-size: 2.1vw;
+    text-align: center;
+}
+
+
+
+.subtitulo_blog{
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+}
+
+.caja_blog1 ul li{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+}
+
+.caja_blog2{
+    margin-top: 12%;
+
+}
+
+.caja_blog2 ul li{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+}
+
+
+
+.imagenblog{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 12%;
+}
+
+.listablog{
+    clear: both;
+    
+}
+
+.fecha{
+    color:rgb(234,133,0);
+}
+
+.autor{
+     font-size: 1.1vh;
+    font-size: 1.1vw;
+    color:rgb(234,133,0)
+}
+
+.linea{
+    height: 0.2em;
+    width: 30%;
+    background-color: rgb(85,184,0);
+    margin-left: -20%;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+
+.titulo_testimoniales{
+    font-size: 2.1vh;
+    font-size: 2.1vw;
+    text-align: center;
+}
+
+.caja_parrafo{
+    background-color: rgb(87,185,0);
+    /*border: 2px white solid;*/
+    border-radius: 25px 25px 25px 25px;
+    padding: 12%;
+    
+}
+
+.comillas{
+    color:white;
+    font-size: 7vh;
+    font-size: 7vw; 
+    
+}
+
+.parrafo_testimonial{
+    clear:both;
+    font-size: 1.5vh;
+    font-size: 1.5vw; 
+    color: rgb(255,255,255);
+    line-height:200%;
+    margin-left: 13%;
+    margin-top: -33%;
+}
+
+.autor2{
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    margin-left: 40%;
+}
+
+
+
+/*Pie de página*/
+
+.pie{
+    clear: both;
+    background-color: rgb(50,50,50);
+    width: 100%;
+    height: 5em;
+    padding-top:2%;
+}
+
+.pie_izq{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.pie_derc{
+    width: 20%;
+    float: right;
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+
+.lista_menu_pie{
+    width: 80%;
+    float: left;
+   
+}
+
+.lista_menu_pie li{
+    display: inline;
+    width: 40%;
+   
+    
+}
+.lista_menu_pie li a{
+    text-decoration: none;
+    font-size: 1.3vh;
+    font-size: 1.3vw;
+    list-style-type: none;
+    text-decoration:none;
+    color:white;
+    margin: 0.5em;
+    font-weight: bold;
+
+}
+
+
+.copy{
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+    color: rgb(255,255,255);
+   
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+@import 'variables';
+
+.parrafos{
+    font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_ancho;
+    line-height:180%;
+        
+}
+
+.parrafos2{
+    font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_ancho;
+    margin-left: 2%;    
+}
+
+.mensaje{
+    float: left;
+    margin-top: 10%;
+    font-size: 1.1vh;
+    font-size: 1.1vw;
+}
+
+.precio{
+   font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_ancho;
+    margin-left:2%;
+    color: $verde;
+}
+
+.fecha{
+    color:$naranja;
+}
+
+.autor{
+    font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_ancho;
+    color:$naranja;
+}
+
+.parrafo_testimonial{
+    clear:both;
+    font-size: $tamano_texto_2_alto;
+    font-size: $tamano_texto_2_ancho;
+    color: $blanco;
+    line-height:200%;
+    margin-left: 13%;
+    margin-top: -33%;
+}
+
+.autor2{
+    font-size: $tamano_texto_2_alto;
+    font-size: $tamano_texto_2_ancho;
+    font-weight: bold;
+    color: $blanco;
+    margin-left: 40%;
+}
+
+.comillas{
+    color:white;
+    font-size: 7vh;
+    font-size: 7vw; 
+    
+}

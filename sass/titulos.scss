@@ -1,0 +1,76 @@
+@import 'variables';
+
+
+.titulo{
+  clear: left;
+    color:$blanco;
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+}
+
+.titulo2{
+    color:$blanco;
+    margin-left: 10%;
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+}
+
+
+.enunciado1{
+    text-align: center;
+   font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+}
+
+.enunciado2{
+    clear: left;
+    text-align: center;
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+    margin-top: 25%;
+        
+}
+
+.titulo_iconos2{
+     margin-left: 2%;
+     font-size: $tamano_texto_2_alto;
+    font-size: $tamano_texto_2_ancho;
+}
+
+
+.titulo_parallax_1{
+    color: white;
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+}
+
+.titulo_parallax_2{
+    color: white;
+    font-size: $tamano_texto_4_alto;
+    font-size: $tamano_texto_4_ancho;
+    margin-top: 5%;
+}
+
+
+.titulo_blog{
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+    text-align: center;
+}
+
+
+
+.subtitulo_blog{
+   font-size: $tamano_texto_2_alto;
+    font-size: $tamano_texto_2_ancho;
+}
+
+
+
+.titulo_testimoniales{
+    font-size: $tamano_texto_1_alto;
+    font-size: $tamano_texto_1_ancho;
+    text-align: center;
+}
